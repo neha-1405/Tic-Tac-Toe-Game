@@ -64,15 +64,15 @@ int main()
 
         if(index==9) break;
 
-        cout<<"Enter the position of O: ";
+        cout<<"Enter the position of Y: ";
         cin >> temp;
-        a[temp] = 'O';
+        a[temp] = 'Y';
         index++;
         display(a);
         win = tic_tac_toe(a);
         if(win)
         {
-            cout << "O wins" << endl;
+            cout << "Y wins" << endl;
             break;
         }
     }
